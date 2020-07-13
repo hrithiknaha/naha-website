@@ -1,7 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1>Hello</h1>, document.getElementById('app'));
+//Tailwind
+import './scss/utilities/tailwind.css';
+import './scss/style.scss';
+
+//Main Component
+import Main from './components/Main';
+
+ReactDOM.render(<Main />, document.getElementById('app'));
 
 if (module.hot) {
 	module.hot.accept();
