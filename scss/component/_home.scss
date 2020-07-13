@@ -1,0 +1,19 @@
+.home {
+	&-bg {
+		height: 100vh;
+		background: linear-gradient(90deg, #e2e8f0 45%, white 0);
+		position: relative;
+	}
+
+	&-card {
+		position: inherit;
+		top: 8rem;
+		height: 25rem;
+		background: linear-gradient(90deg, #bac1c9 50%, white 50%);
+
+		@include atLarge {
+			position: inherit;
+			top: 16rem;
+		}
+	}
+}
