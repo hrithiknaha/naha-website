@@ -7,13 +7,15 @@ import Projects from './Projects';
 
 const Main = () => {
 	return (
-		<BrowserRouter>
-			<Switch>
-				<Route path='/' exact component={Home} />
-				<Route path='/resume' exact component={Resume} />
-				<Route path='/projects' exact component={Projects} />
-			</Switch>
-		</BrowserRouter>
+		<div>
+			<BrowserRouter basename={window.location.pathname || ''}>
+				<Switch>
+					<Route path='/' exact component={Home} />
+					<Route path='/resume' component={Resume} />
+					<Route path='/projects' component={Projects} />
+				</Switch>
+			</BrowserRouter>
+		</div>
 	);
 };
 

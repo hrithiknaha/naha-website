@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const HomeCard = () => {
 	return (
-		<div className=' lg:flex home-card lg:mx-auto ml-8 w-4/5 lg:w-3/5 lg:h-64 bg-white lg:bg-gray-600'>
+		<div className=' lg:flex home-card lg:mx-auto ml-8 w-4/5 lg:w-3/5  bg-white lg:bg-gray-600'>
 			<div className='shadow-lg lg:flex-1 relative pt-8 lg:w-2/4 lg:pt-12 h-full'>
 				<img
 					className='rounded-full w-32 mx-auto lg:m-auto'
