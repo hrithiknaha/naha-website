@@ -7,12 +7,12 @@ const Resume = () => {
 	return (
 		<div className='bg-gray-300 w-100 h-100'>
 			<Navbar />
-			<div className='experience lg:pt-8'>
-				<p className='lg:py-8 lg:w-2/4 lg:mx-auto font-semibold lg:text-2xl'>
+			<div className='experience pt-8'>
+				<p className='py-8 w-2/4 mx-auto text-center font-semibold lg:text-2xl text-xl'>
 					Experience
 				</p>
-				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
-					<div className='flex-1'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 p-8 m-4 bg-white lg:flex'>
+					<div className='lg:flex-1 text-center '>
 						<p className='text-indigo-600 font-semibold lg:text-xl'>
 							Jan - Apr, 2020
 						</p>
@@ -20,7 +20,7 @@ const Resume = () => {
 						<p>Cognizant</p>
 						<p>Kolkata</p>
 					</div>
-					<div className='flex-1'>
+					<div className='lg:flex-1 lg:mt-0 mt-4'>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Dicta commodi, nam libero adipisci ipsum
@@ -31,40 +31,36 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
-					<div className='flex-1'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 p-8 m-4 bg-white lg:flex'>
+					<div className='lg:flex-1 text-center '>
 						<p className='text-indigo-600 font-semibold lg:text-xl'>
-							Jan - Feb, 2019
+							Jan - Apr, 2020
 						</p>
-						<p className='font-semibold tracking-wide'>
-							JUNIOR INTERN
-						</p>
-						<p>Voith Hydro</p>
-						<p>Noida</p>
-					</div>
-					<div className='flex-1'>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Dicta commodi, nam libero adipisci ipsum
-							numquam repellendus aut expedita illo placeat
-							suscipit, fuga laborum. Quaerat ipsam laborum
-							impedit?
-						</p>
-					</div>
-				</div>
-
-				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
-					<div className='flex-1'>
-						<p className='text-indigo-600 font-semibold lg:text-xl'>
-							Jun - Jul, 2018
-						</p>
-						<p className='font-semibold tracking-wide'>
-							WEB DEVELOPER
-						</p>
-						<p>Crossindia</p>
+						<p className='font-semibold tracking-wide'>INTERN</p>
+						<p>Cognizant</p>
 						<p>Kolkata</p>
 					</div>
-					<div className='flex-1'>
+					<div className='lg:flex-1 lg:mt-0 mt-4'>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Dicta commodi, nam libero adipisci ipsum
+							numquam repellendus aut expedita illo placeat
+							suscipit, fuga laborum. Quaerat ipsam laborum
+							impedit?
+						</p>
+					</div>
+				</div>
+
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 p-8 m-4 bg-white lg:flex'>
+					<div className='lg:flex-1 text-center '>
+						<p className='text-indigo-600 font-semibold lg:text-xl'>
+							Jan - Apr, 2020
+						</p>
+						<p className='font-semibold tracking-wide'>INTERN</p>
+						<p>Cognizant</p>
+						<p>Kolkata</p>
+					</div>
+					<div className='lg:flex-1 lg:mt-0 mt-4'>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Dicta commodi, nam libero adipisci ipsum
@@ -77,23 +73,19 @@ const Resume = () => {
 			</div>
 
 			<div className='education pt-8'>
-				<p className='lg:py-8 lg:w-2/4 lg:mx-auto font-semibold lg:text-2xl'>
-					Education
+				<p className='py-8 w-2/4 mx-auto text-center font-semibold lg:text-2xl text-xl'>
+					Experience
 				</p>
-				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
-					<div className='flex-1'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 p-8 m-4 bg-white lg:flex'>
+					<div className='lg:flex-1 text-center '>
 						<p className='text-indigo-600 font-semibold lg:text-xl'>
-							2016 - 2020
+							Jan - Apr, 2020
 						</p>
-						<p className='font-semibold tracking-wide'>
-							UNIVERSITY OF ENGINEERING AND MANAGEMENT
-						</p>
-						<p className='pt-8 italic'>
-							B-tech in Computer Science
-						</p>
+						<p className='font-semibold tracking-wide'>INTERN</p>
+						<p>Cognizant</p>
 						<p>Kolkata</p>
 					</div>
-					<div className='flex-1'>
+					<div className='lg:flex-1 lg:mt-0 mt-4'>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Dicta commodi, nam libero adipisci ipsum
@@ -104,18 +96,16 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
-					<div className='flex-1'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 p-8 m-4 bg-white lg:flex'>
+					<div className='lg:flex-1 text-center '>
 						<p className='text-indigo-600 font-semibold lg:text-xl'>
-							2016
+							Jan - Apr, 2020
 						</p>
-						<p className='font-semibold tracking-wide'>
-							SALT LAKE SHIKSHA NIKETAN
-						</p>
-						<p className='pt-8 italic'>Science</p>
+						<p className='font-semibold tracking-wide'>INTERN</p>
+						<p>Cognizant</p>
 						<p>Kolkata</p>
 					</div>
-					<div className='flex-1'>
+					<div className='lg:flex-1 lg:mt-0 mt-4'>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Dicta commodi, nam libero adipisci ipsum
@@ -126,18 +116,16 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
-					<div className='flex-1'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 p-8 m-4 bg-white lg:flex'>
+					<div className='lg:flex-1 text-center '>
 						<p className='text-indigo-600 font-semibold lg:text-xl'>
-							2014
+							Jan - Apr, 2020
 						</p>
-						<p className='font-semibold tracking-wide'>
-							CITY INTERNATIONAL SCHOOL
-						</p>
-
-						<p className='pt-8 '>Pune</p>
+						<p className='font-semibold tracking-wide'>INTERN</p>
+						<p>Cognizant</p>
+						<p>Kolkata</p>
 					</div>
-					<div className='flex-1'>
+					<div className='lg:flex-1 lg:mt-0 mt-4'>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Dicta commodi, nam libero adipisci ipsum
@@ -149,8 +137,8 @@ const Resume = () => {
 				</div>
 			</div>
 
-			<div className='skills pt-8 pb-16'>
-				<div className='shadow-xl p-10 mx-auto w-2/4 h-full bg-white'>
+			<div className='skills pt-8 pb-16 m-4'>
+				<div className='shadow-xl p-10 mx-auto lg:w-2/4 h-full bg-white'>
 					<div>
 						<p className='pl-3 font-semibold tracking-wider text-xl'>
 							Professional skillset
