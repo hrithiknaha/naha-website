@@ -7,13 +7,13 @@ const Resume = () => {
 	return (
 		<div className='bg-gray-300 w-100 h-100'>
 			<Navbar />
-			<div className='experience pt-8'>
-				<p className='py-8 w-2/4 mx-auto font-semibold text-2xl'>
+			<div className='experience lg:pt-8'>
+				<p className='lg:py-8 lg:w-2/4 lg:mx-auto font-semibold lg:text-2xl'>
 					Experience
 				</p>
-				<div className='shadow-xl p-10 mx-auto mb-10 w-2/4 h-64 bg-white flex'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
 					<div className='flex-1'>
-						<p className='text-indigo-600 font-semibold text-xl'>
+						<p className='text-indigo-600 font-semibold lg:text-xl'>
 							Jan - Apr, 2020
 						</p>
 						<p className='font-semibold tracking-wide'>INTERN</p>
@@ -31,9 +31,9 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className='shadow-xl p-10 mx-auto mb-10 w-2/4 h-64 bg-white flex'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
 					<div className='flex-1'>
-						<p className='text-indigo-600 font-semibold text-xl'>
+						<p className='text-indigo-600 font-semibold lg:text-xl'>
 							Jan - Feb, 2019
 						</p>
 						<p className='font-semibold tracking-wide'>
@@ -53,15 +53,15 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className='shadow-xl p-10 mx-auto w-2/4 h-64 bg-white flex'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
 					<div className='flex-1'>
-						<p className='text-indigo-600 font-semibold text-xl'>
+						<p className='text-indigo-600 font-semibold lg:text-xl'>
 							Jun - Jul, 2018
 						</p>
 						<p className='font-semibold tracking-wide'>
 							WEB DEVELOPER
 						</p>
-						<p>Crossindia Cruise</p>
+						<p>Crossindia</p>
 						<p>Kolkata</p>
 					</div>
 					<div className='flex-1'>
@@ -77,23 +77,21 @@ const Resume = () => {
 			</div>
 
 			<div className='education pt-8'>
-				<p className='py-8 w-2/4 mx-auto font-semibold text-2xl'>
+				<p className='lg:py-8 lg:w-2/4 lg:mx-auto font-semibold lg:text-2xl'>
 					Education
 				</p>
-				<div className='shadow-xl p-10 mx-auto mb-10 w-2/4 h-64 bg-white flex'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
 					<div className='flex-1'>
-						<p className=' font-semibold text-xl'>Graduation</p>
-						<p className='text-indigo-600 font-semibold text-xl'>
+						<p className='text-indigo-600 font-semibold lg:text-xl'>
 							2016 - 2020
 						</p>
-						<p className='text-sm font-semibold tracking-wide'>
-							UNIVERSITY OF ENGINEERING
-							<br /> AND MANAGEMENT
+						<p className='font-semibold tracking-wide'>
+							UNIVERSITY OF ENGINEERING AND MANAGEMENT
+						</p>
+						<p className='pt-8 italic'>
+							B-tech in Computer Science
 						</p>
 						<p>Kolkata</p>
-						<p className='pt-4 italic'>
-							B-Tech in Computer Science
-						</p>
 					</div>
 					<div className='flex-1'>
 						<p>
@@ -106,19 +104,16 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className='shadow-xl p-10 mx-auto mb-10 w-2/4 h-64 bg-white flex'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
 					<div className='flex-1'>
-						<p className=' font-semibold text-xl'>
-							Higher Secondary
-						</p>
-						<p className='text-indigo-600 font-semibold text-xl'>
+						<p className='text-indigo-600 font-semibold lg:text-xl'>
 							2016
 						</p>
 						<p className='font-semibold tracking-wide'>
 							SALT LAKE SHIKSHA NIKETAN
 						</p>
+						<p className='pt-8 italic'>Science</p>
 						<p>Kolkata</p>
-						<p className='pt-4 italic'>Science</p>
 					</div>
 					<div className='flex-1'>
 						<p>
@@ -131,16 +126,16 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className='shadow-xl p-10 mx-auto w-2/4 h-64 bg-white flex'>
+				<div className='shadow-xl lg:p-10 lg:mx-auto lg:mb-10 lg:w-2/4 lg:h-64 bg-white flex'>
 					<div className='flex-1'>
-						<p className=' font-semibold text-xl'>Class X</p>
-						<p className='text-indigo-600 font-semibold text-xl'>
+						<p className='text-indigo-600 font-semibold lg:text-xl'>
 							2014
 						</p>
 						<p className='font-semibold tracking-wide'>
 							CITY INTERNATIONAL SCHOOL
 						</p>
-						<p>Pune</p>
+
+						<p className='pt-8 '>Pune</p>
 					</div>
 					<div className='flex-1'>
 						<p>
@@ -155,7 +150,7 @@ const Resume = () => {
 			</div>
 
 			<div className='skills pt-8 pb-16'>
-				<div className='shadow-xl p-10 mx-auto w-2/4 h-64 bg-white'>
+				<div className='shadow-xl p-10 mx-auto w-2/4 h-full bg-white'>
 					<div>
 						<p className='pl-3 font-semibold tracking-wider text-xl'>
 							Professional skillset

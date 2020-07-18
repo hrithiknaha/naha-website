@@ -1,23 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomeCard = () => {
 	return (
-		<div className=' flex home-card mx-auto w-3/5 h-64 bg-gray-600'>
-			<div className='shadow-lg flex-1 relative w-2/4 pt-12 h-full'>
+		<div className=' flex home-card lg:mx-auto lg:w-3/5 lg:h-64 bg-gray-600'>
+			<div className='shadow-lg flex-1 relative lg:w-2/4 lg:pt-12 lg:h-full'>
 				<img
-					className='rounded-full w-32 m-auto'
+					className='rounded-full lg:w-32 lg:m-auto'
 					src='../static/photo-me.jpg'
 					alt='photo'
 				/>
-				<p className='pt-3 w-20 mx-auto text-center font-bold text-lg mt-1'>
+				<p className='lg:pt-3 lg:w-20 lg:mx-auto lg:text-center font-bold lg:text-lg lg:mt-1'>
 					HRITHIK NAHA
 				</p>
-				<div className='w-16 h-1 bg-blue-600 mx-auto mt-4'></div>
-				<p className='mt-4 text-center tracking-widest'>
+				<div className='lg:w-16 lg:h-1 bg-blue-600 lg:mx-auto lg:mt-4'></div>
+				<p className='lg:mt-4 lg:text-center lg:tracking-widest'>
 					FULL STACK DEVELOPER
 				</p>
-				<div className='absolute bottom-0 h-16 w-full bg-white text-center text-2xl'>
-					<div className='flex w-2/4 h-full mx-auto items-center'>
+				<div className='absolute bottom-0 lg:h-16 lg:w-full bg-white lg:text-center lg:text-2xl'>
+					<div className='flex lg:w-2/4 lg:h-full lg:mx-auto lg:items-center'>
 						<div className='flex-1'>
 							<a href='#'>
 								<i class='fab fa-facebook-f'></i>
@@ -41,16 +42,18 @@ const HomeCard = () => {
 					</div>
 				</div>
 			</div>
-			<div className='flex-1 w-2/4 h-full'>
-				<p className='py-4 pl-8 text-6xl font-bold'>Hello</p>
-				<p className='pl-8 text-2xl'>Here's who I am & what I do</p>
-				<button class='ml-8 my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
-					Resume
+			<div className='flex-1 lg:w-2/4 lg:h-full'>
+				<p className='lg:py-4 lg:pl-8 lg:text-6xl font-bold'>Hello</p>
+				<p className='lg:pl-8 lg:text-2xl'>
+					Here's who I am & what I do
+				</p>
+				<button class='lg:ml-8 lg:my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold lg:py-2 lg:px-4 rounded-full'>
+					<Link to='/resume'>Resume</Link>
 				</button>
-				<button class='ml-4 bg-transparent hover:bg-blue-600 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full'>
-					Projects
+				<button class='lg:ml-4 bg-transparent hover:bg-blue-600 text-blue-700 font-semibold hover:text-white lg:py-2 lg:px-4 border border-blue-500 hover:border-transparent rounded-full'>
+					<Link to='/projects'>Projects</Link>
 				</button>
-				<p className='ml-8'>
+				<p className='lg:ml-8'>
 					As a skilled and experienced professional in my field, I
 					know how much hard work and careful thought it takes to
 					succeed. My site is my way of documenting everything I’ve
