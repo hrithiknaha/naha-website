@@ -7,6 +7,10 @@
 		@include atSmall {
 			background: linear-gradient(0deg, #e2e8f0 95%, white 0);
 		}
+
+		@include atLarge {
+			height: 100vh;
+		}
 	}
 
 	&-card {
