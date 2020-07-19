@@ -61,8 +61,8 @@ const HomeCard = () => {
 					As a skilled and experienced professional in my field, I
 					know how much hard work and careful thought it takes to
 					succeed. My site is my way of documenting everything I’ve
-					done, everything I’ve learned and how I see myself
-					developing in the future.
+					done, everything I’ve learnt and how I see myself developing
+					in the future.
 				</p>
 			</div>
 		</div>
