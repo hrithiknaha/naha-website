@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import potrait from '../static/photo-me.jpg';
+
 const HomeCard = () => {
 	return (
 		<div className=' lg:flex home-card lg:mx-auto ml-8 w-4/5 lg:w-3/5  bg-white lg:bg-gray-600'>
 			<div className='shadow-lg lg:flex-1 relative pt-8 lg:w-2/4 lg:pt-12 h-full'>
 				<img
 					className='rounded-full w-32 mx-auto lg:m-auto'
-					src='../static/photo-me.jpg'
+					src={potrait}
 					alt='photo'
 				/>
 				<p className='lg:pt-3 lg:w-20 lg:mx-auto text-center mt-8 text-xl w-20 mx-auto font-bold lg:text-lg lg:mt-1'>
