@@ -22,22 +22,22 @@ const HomeCard = () => {
 				<div className='absolute bottom-0 h-8 lg:h-16 w-full bg-white text-center lg:text-2xl'>
 					<div className='flex lg:w-2/4 h-full lg:mx-auto items-center'>
 						<div className='flex-1'>
-							<a href='#'>
+							<a href='https://www.facebook.com/hrithik.naha/'>
 								<i class='fab fa-facebook-f'></i>
 							</a>
 						</div>
 						<div className='flex-1'>
-							<a href='#'>
+							<a href='https://www.linkedin.com/in/hrithiknaha/'>
 								<i class='fab fa-linkedin-in'></i>
 							</a>
 						</div>
 						<div className='flex-1'>
-							<a href='#'>
+							<a href='https://twitter.com/hrithiknaha'>
 								<i class='fab fa-twitter'></i>
 							</a>
 						</div>
 						<div className='flex-1'>
-							<a href='#'>
+							<a href='https://www.instagram.com/hrithiknaha/'>
 								<i class='fab fa-instagram'></i>
 							</a>
 						</div>
