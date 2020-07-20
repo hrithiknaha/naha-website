@@ -6,7 +6,6 @@ import Footer from './Footer';
 const Resume = () => {
 	return (
 		<div className='bg-gray-300 w-100 h-100'>
-			<Navbar />
 			<div className='experience pt-8'>
 				<p className='py-8 w-2/4 mx-auto text-center font-semibold lg:text-2xl text-xl'>
 					Experience
