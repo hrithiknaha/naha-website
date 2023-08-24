@@ -1,8 +1,14 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Layout from "./components/config/Layout";
+
 function App() {
     return (
-        <div className="App">
-            <h1>Hrithik Naha</h1>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Layout />}></Route>
+            </Routes>
+        </Router>
     );
 }
 
