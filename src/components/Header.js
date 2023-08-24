@@ -15,7 +15,7 @@ const Header = () => {
     };
 
     return (
-        <div className="flex justify-center items-start p-4 bg-stone-300 text-white h-56 fixed">
+        <div className="flex justify-center items-start p-4 bg-stone-300 text-white">
             <div className="flex items-center">
                 <div className="mr-4 flex flex-wrap items-center gap-1">
                     <h1 className="text-xl flex items-center gap-2 text-gray-600 font-bold">
